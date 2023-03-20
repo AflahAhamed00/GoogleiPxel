@@ -1,0 +1,319 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+header
+{
+    height: 4rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    cursor: pointer;
+    background-color: white;
+}
+
+header .navbar
+{
+    padding:1.5rem 0 0 3rem;
+    display: flex;
+}
+
+header .navbar .image img
+{
+    width: 28px;
+}
+
+.navbar .icons 
+{
+  position: absolute;
+  right: 8rem;
+  display: flex;
+}
+
+.navbar .icons i
+{
+   margin:.5rem 1rem;
+   font-size: 18px;
+   color: rgb(95, 99, 104);
+}
+
+.navbar .icons i:hover
+{
+    color: #2962ff;
+}
+
+.navbar .icons .mailimage img
+{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+}
+
+.navbar .icons .mailimage
+{
+    position: absolute;
+    left: 10rem;
+}
+
+.header
+{
+    height: 15rem;
+}
+
+.header h1
+{
+    text-align: center;
+    padding-top: 4rem;
+    font-family: "Google Sans Display", Roboto, Arial, sans-serif;
+    color: #3c4043;
+    font-size: 58px;
+    font-weight: bolder;
+}
+
+.header span
+{
+    color: #188038;
+}
+
+.section-1
+{
+    margin-left: 3rem;
+    display: flex;
+    margin-bottom:3rem;
+}    
+
+.section-1 .producttype
+{
+    width: 25rem;
+    height: 28rem;
+    font-family: "Google Sans", Roboto, Arial, sans-serif;
+}
+
+.section-1 .producttype h5
+{
+    margin-bottom: 1rem;
+    color: #3c4043;
+    cursor: pointer;
+}
+
+.section-1 .producttype .details
+{
+    display: flex;
+    gap: 1rem;
+    color: #3c4043;
+    font-size: 14px;
+    font-weight: lighter;
+    margin-bottom: .5rem;
+    cursor: pointer;
+}
+
+.section-1 .images
+{
+    display: flex; 
+    cursor: pointer;
+}
+
+.section-1 .images .image1,
+.section-1 .images .image2,
+.section-1 .images .image3
+{
+    width: 20rem;
+    height: 25rem;
+    background-color: #f8f9fa;
+    margin-right: 4rem;
+    position: relative;
+}
+
+.section-1 .images .image1 img,
+.section-1 .images .image2 img,
+.section-1 .images .image3 img
+{
+    position: absolute;
+    top: 5rem;
+    left: 2rem;
+    width: 250px;
+}
+
+section .images figcaption
+{
+    position: absolute;
+    top: 26rem;
+    font-family: "Google Sans", Roboto, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #3c4043;
+}
+
+
+.section-1 .images .image1 img:hover,
+.section-1 .images .image2 img:hover,
+.section-1 .images .image3 img:hover
+{
+    transform: scale(1.1);
+    transform-origin: center;
+    transition-duration: 1s;   
+}
+
+
+.section-2
+{
+    margin-left: 23rem;
+    display: flex;
+    margin-bottom: 3rem;
+}    
+
+.section-2 .images
+{
+    display: flex; 
+    margin-bottom: 3rem;
+    cursor: pointer;
+}
+.section-2 .images .image4,
+.section-2 .images .image5,
+.section-2 .images .image6
+{
+    width: 20rem;
+    height: 25rem;
+    background-color: #f8f9fa;
+    margin-right: 4rem;
+    justify-content: center;
+    position: relative;
+}
+
+.section-2 .images .image4 img,
+.section-2 .images .image5 img,
+.section-2 .images .image6 img
+{
+    position: absolute;
+    top: 5rem;
+    left: 2rem;
+    width: 250px;
+}
+
+.section-2 .images span
+{
+    position: relative;
+    bottom: 2.4rem;
+}
+
+.section-2 .images .image4 img:hover,
+.section-2 .images .image5 img:hover,
+.section-2 .images .image6 img:hover
+{
+    transform: scale(1.1);
+    transform-origin: center;
+    transition-duration: 1s;   
+}
+
+.section-3
+{
+    margin-left: 23rem;
+    display: flex;
+    margin-bottom: 3rem;
+}    
+
+.section-3 .images
+{
+    display: flex; 
+    margin-bottom: 3rem;
+    cursor: pointer;
+}
+.section-3 .images .image7,
+.section-3 .images .image8
+{
+    width: 20rem;
+    height: 25rem;
+    background-color: #f8f9fa;
+    margin-right: 4rem;
+    justify-content: center;
+    position: relative;
+}
+
+.section-3 .images .image7 img,
+.section-3 .images .image8 img
+{
+    position: absolute;
+    top: 5rem;
+    left: 2rem;
+    width: 250px;
+}
+
+.section-3 .images .image7 img:hover,
+.section-3 .images .image8 img:hover
+{
+    transform: scale(1.1);
+    transform-origin: center;
+    transition-duration: 1s;   
+}
+
+footer
+{
+    height: 17.5rem;
+    position: relative;
+    margin:0 6rem 0 6rem;
+    border-bottom: 1px solid #e6eaec;
+}
+
+footer .policies 
+{
+    height: 15rem;
+    position: absolute;
+    top: 5rem;
+    right: 5rem;
+    line-height: 2.5rem;
+    gap: 2.5rem;
+    display: flex;
+    font-size: 14px;
+    font-family: "Google Sans", Arial, sans-serif;
+    color: #3c4043;
+}
+
+footer .policies p
+{
+    cursor: pointer;
+}
+
+footer .policies p:hover
+{
+    color: #1967d2;
+}
+
+footer .medias .mediapic
+{
+    position: absolute;
+    top: 18.5rem;
+    color: #3c4043;
+}
+
+footer .medias .mediapic i
+{
+    margin-right: 1rem;
+    font-size: 19px;
+    cursor: pointer;
+}
+
+footer .medias .lastline 
+{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: 18.2rem;
+    right: .1rem;
+}
+
+footer .medias .lastline img
+{
+    width: 25px;
+    padding-right: .5rem;
+    cursor: pointer;
+}
+
+footer .medias .lastline h6
+{
+    margin-right: 2.5rem;
+    color: #423f3f;
+    font-family: "Google Sans", arial, sans-serif;
+    cursor: pointer;
+}
